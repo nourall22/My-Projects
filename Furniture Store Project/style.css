@@ -592,5 +592,73 @@ body {
 /* end of footer*/
 
 /* modal box */
-
+.forms-wrapper {
+  background-color: #eee;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  padding: 2rem;
+  border: 0.1rem solid #34598f;
+  border-radius: 0.3rem;
+}
+.show-btns-wrapper {
+  display: flex;
+  padding: 1rem;
+}
+.show-form-btn {
+  flex: 0 1 50%;
+  background-color: #12376e;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  border: 0.1rem solid #eee;
+}
+.form-heading {
+  font-size: 2rem;
+  color: #12376e;
+  text-transform: uppercase;
+  padding: 1rem 0 0 0.2rem;
+}
+.forms-wrapper form {
+  width: 50rem;
+  padding: 1rem;
+}
+.forms-wrapper form input:not(.form-btn) {
+  background-color: #fff;
+  color: #777;
+  padding: 1.3rem;
+  margin: 0.3rem 0;
+  border: 0.2rem solid #eee;
+  box-sizing: border-box;
+  outline: none;
+}
+.fullname-inputs-wrapper {
+  display: flex;
+}
+.fullname-inputs-wrapper input {
+  width: 50%;
+}
+.form-input {
+  width: 35%;
+  background-color: #d38800;
+  color: #fff;
+  letter-spacing: 0.3rem;
+  padding: 1rem;
+  border: none;
+  margin-top: 0.5rem;
+}
+.x-btn {
+  font-size: 2rem;
+  color: #00154c;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 3.3rem;
+  right: 3.5rem;
+  cursor: pointer;
+}
 /* end of modal box */
