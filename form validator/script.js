@@ -20,3 +20,15 @@ form.addEventListener("submit", function (e) {
     showSuccess("username");
   }
 });
+
+
+
+/*form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  if (username.value === "") {
+    showError(username, "Username is required");
+  } else {
+    showSuccess("username");
+  }
+});
